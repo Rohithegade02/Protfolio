@@ -10,25 +10,12 @@ function Project() {
         " 🛒🛒This is a Amazon Shopping Site's clone version created using ReactJs. Here we can able to add your items to the cart and also able to purchase the products using your card via stripe payment  method",
       git: "https://github.com/Rohithegade02/amazon-clone",
       demo: "https://clone-17862.web.app/",
-      technologies: [
+      techno: [
         {
-          react:
-            "https://cdn.sanity.io/images/ozwoeorl/production/0b5634b00998cd9c85c300ebd66962b4555d6b84-1200x630.png?w=100&fit=max&auto=format",
-        },
-        {
-          firebase:
-            "https://cdn.sanity.io/images/ozwoeorl/production/af8a94a4e1400ea5eb033c1bd913570c66bad349-1200x600.webp?w=100&fit=max&auto=format",
-        },
-        {
-          redux:
-            "https://cdn.sanity.io/images/ozwoeorl/production/8473fd46d7dffba4283ef5494b7a5677d196b961-260x260.jpg?w=100&fit=max&auto=format",
-        },
-        {
-          stripe:
-            "https://cdn.sanity.io/images/ozwoeorl/production/f6efde670a239f9cc6f66c730fe3724b2a8fb3f9-256x256.png?w=100&fit=max&auto=format",
-        },
-        {
-          css: "https://cdn.sanity.io/images/ozwoeorl/production/0cfc0be6b6615afb3b16b65c7c99b546c41351a9-1280x1280.webp?w=100&fit=max&auto=format",
+          img1: "https://cdn.sanity.io/images/ozwoeorl/production/0b5634b00998cd9c85c300ebd66962b4555d6b84-1200x630.png?w=2000&fit=max&auto=format",
+          img2: "https://cdn.sanity.io/images/ozwoeorl/production/af8a94a4e1400ea5eb033c1bd913570c66bad349-1200x600.webp?w=2000&fit=max&auto=format",
+          img3: "https://cdn.sanity.io/images/ozwoeorl/production/8473fd46d7dffba4283ef5494b7a5677d196b961-260x260.jpg?w=2000&fit=max&auto=format",
+          img4: "https://cdn.sanity.io/images/ozwoeorl/production/0cfc0be6b6615afb3b16b65c7c99b546c41351a9-1280x1280.webp?w=2000&fit=max&auto=format",
         },
       ],
     },
@@ -39,6 +26,14 @@ function Project() {
         " Discord (with unique roles in each server,image auto render video links in messages, discord loading logo between page renderings) with React, React Router, Tailwind CSS and firebase as backend",
       git: "https://github.com/Rohithegade02/Discord-Clone",
       demo: "https://discordclone-three.vercel.app/",
+      techno: [
+        {
+          img1: "https://cdn.sanity.io/images/ozwoeorl/production/0b5634b00998cd9c85c300ebd66962b4555d6b84-1200x630.png?w=2000&fit=max&auto=format",
+          img2: "https://cdn.sanity.io/images/ozwoeorl/production/af8a94a4e1400ea5eb033c1bd913570c66bad349-1200x600.webp?w=2000&fit=max&auto=format",
+          img3: "https://cdn.sanity.io/images/ozwoeorl/production/8473fd46d7dffba4283ef5494b7a5677d196b961-260x260.jpg?w=2000&fit=max&auto=format",
+          img4: "https://cdn.sanity.io/images/ozwoeorl/production/e285efaab9a759d07eaa1b6155ac36d72d45f4ab-1200x1200.jpg?w=2000&fit=max&auto=format",
+        },
+      ],
     },
     {
       img: "https://cdn.sanity.io/images/ozwoeorl/production/062ce219b3601a36c5ab13535b0ea1739114cce5-909x510.png?w=300&fit=max&auto=format",
@@ -47,6 +42,14 @@ function Project() {
         " Implemented a web application using React and Redux. The index page contains login credentials. Sign in with google is enabled through Firebase as a backed Used styled-components for styling the User Interface.",
       git: "https://github.com/Rohithegade02/Linkdein-Clone",
       demo: "https://linkedin-clone-a5080.web.app/",
+      techno: [
+        {
+          img1: "https://cdn.sanity.io/images/ozwoeorl/production/0b5634b00998cd9c85c300ebd66962b4555d6b84-1200x630.png?w=2000&fit=max&auto=format",
+          img2: "https://cdn.sanity.io/images/ozwoeorl/production/0cfc0be6b6615afb3b16b65c7c99b546c41351a9-1280x1280.webp?w=2000&fit=max&auto=format",
+          img3: "https://cdn.sanity.io/images/ozwoeorl/production/af8a94a4e1400ea5eb033c1bd913570c66bad349-1200x600.webp?w=2000&fit=max&auto=format",
+          img4: "https://cdn.sanity.io/images/ozwoeorl/production/8473fd46d7dffba4283ef5494b7a5677d196b961-260x260.jpg?w=2000&fit=max&auto=format",
+        },
+      ],
     },
     {
       img: "https://cdn.sanity.io/images/ozwoeorl/production/37b2ffd189a58c39a9317e6625a46026c604fe8f-1340x1112.png?w=200&fit=max&auto=format",
@@ -55,6 +58,14 @@ function Project() {
         " This is a NextJs and Tailwind based Airbnb clone. This clone features extreme responsiveness to all devices.In this user can select from which date in which he wants to travel till the end date and select the city. Implemented mapbox where he/she can view the exactly location of hotels in the map.",
       git: "https://github.com/Rohithegade02/Airbnb-Clone",
       demo: "https://airbnb-psi-three.vercel.app/",
+      techno: [
+        {
+          img1: "https://cdn.sanity.io/images/ozwoeorl/production/df24f3334e1f5785d585babeabe06b5876e7a7d8-500x500.png?w=2000&fit=max&auto=format",
+          img2: "https://cdn.sanity.io/images/ozwoeorl/production/af8a94a4e1400ea5eb033c1bd913570c66bad349-1200x600.webp?w=2000&fit=max&auto=format",
+          img3: "https://cdn.sanity.io/images/ozwoeorl/production/e285efaab9a759d07eaa1b6155ac36d72d45f4ab-1200x1200.jpg?w=2000&fit=max&auto=format",
+          img4: "https://cdn.sanity.io/images/ozwoeorl/production/b473d35de88f549250d4dc022ca12e953a455d33-300x300.png?w=2000&fit=max&auto=format",
+        },
+      ],
     },
     {
       img: "https://cdn.sanity.io/images/ozwoeorl/production/a86cf4623e7672298bb0bf7b77ccb944ae30b22e-1000x420.webp?w=360&fit=max&auto=format",
@@ -63,6 +74,14 @@ function Project() {
         " Developed frontend web application using ReactJS Framework. Full responsive web page which contains information of movies based on their genres.",
       git: "https://github.com/Rohithegade02/HULUAPP",
       demo: "https://huluapp-ten.vercel.app/",
+      techno: [
+        {
+          img1: "https://cdn.sanity.io/images/ozwoeorl/production/df24f3334e1f5785d585babeabe06b5876e7a7d8-500x500.png?w=2000&fit=max&auto=format",
+          img2: "https://cdn.sanity.io/images/ozwoeorl/production/b0165e579e82967c102cf7e7daa7c4d970d4e093-900x900.jpg?w=2000&fit=max&auto=format",
+          img3: "https://cdn.sanity.io/images/ozwoeorl/production/8768a0765de39a823abe5a72308aa7f15a302c02-2048x2048.png?w=2000&fit=max&auto=format",
+          img4: "https://cdn.sanity.io/images/ozwoeorl/production/0cfc0be6b6615afb3b16b65c7c99b546c41351a9-1280x1280.webp?w=2000&fit=max&auto=format",
+        },
+      ],
     },
   ];
 
@@ -78,7 +97,10 @@ function Project() {
       </h3>
       <div className=" scrollbar-track-gray-400/20 scrollbar scrollbar-thin scrollbar-thumb-[#f7ab0a]/80 relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20">
         {projects.map((project, i) => (
-          <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen">
+          <div
+            key={i}
+            className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen"
+          >
             <motion.img
               initial={{
                 y: -300,
@@ -99,30 +121,36 @@ function Project() {
                 </span>{" "}
                 {project.name}
               </h4>
-              <div className="flex items-center space-x-3 justify-center">
-                <img
-                  className=" h-10 w-10 rounded-full object-cover "
-                  src="https://cdn.sanity.io/images/ozwoeorl/production/0b5634b00998cd9c85c300ebd66962b4555d6b84-1200x630.png?w=100&fit=max&auto=format"
-                />
-                <img
-                  className=" h-10 w-10 rounded-full object-cover "
-                  src="https://cdn.sanity.io/images/ozwoeorl/production/8473fd46d7dffba4283ef5494b7a5677d196b961-260x260.jpg?w=100&fit=max&auto=format"
-                />
-                <img
-                  className=" h-10 w-10 rounded-full object-cover "
-                  src="https://cdn.sanity.io/images/ozwoeorl/production/df24f3334e1f5785d585babeabe06b5876e7a7d8-500x500.png?w=100&fit=max&auto=format"
-                />
-                <img
-                  className=" h-10 w-10 rounded-full object-cover "
-                  src="https://cdn.sanity.io/images/ozwoeorl/production/e285efaab9a759d07eaa1b6155ac36d72d45f4ab-1200x1200.jpg?w=100&fit=max&auto=format"
-                />
+              <div>
+                {project.techno.map((technologies, i) => (
+                  <div
+                    key={i}
+                    className="flex items-center space-x-3 justify-center"
+                  >
+                    <img
+                      className=" h-10 w-10 rounded-full object-cover "
+                      src={technologies.img1}
+                    />
+                    <img
+                      className=" h-10 w-10 rounded-full object-cover "
+                      src={technologies.img2}
+                    />
+                    <img
+                      className=" h-10 w-10 rounded-full object-cover "
+                      src={technologies.img3}
+                    />
+                    <img
+                      className=" h-10 w-10 rounded-full object-cover "
+                      src={technologies.img4}
+                    />
+                  </div>
+                ))}
               </div>
 
               <p className=" text-center md:text-left text-sm">
                 {project.description}
               </p>
             </div>
-
             <div className=" flex  items-center space-x-5">
               <a href={project.git}>
                 <button className="heroButton">Github</button>

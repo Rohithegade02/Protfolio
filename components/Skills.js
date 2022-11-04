@@ -66,10 +66,15 @@ function Skills() {
       </h3>
       <div className="grid grid-cols-4 gap-5 pt-20">
         {values.slice(0, values.length / 2).map((value, i) => (
-          <Skill img={value.img} scores={value.scores} />
+          <Skill key={value.img} img={value.img} scores={value.scores} />
         ))}
         {values.slice(values.length / 2, values.length).map((value, i) => (
-          <Skill img={value.img} scores={value.scores} directionLeft />
+          <Skill
+            key={value.img}
+            img={value.img}
+            scores={value.scores}
+            directionLeft
+          />
         ))}
       </div>
     </motion.div>

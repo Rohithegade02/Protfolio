@@ -18,7 +18,7 @@ function ContactMe() {
       <div className="flex flex-col space-y-5">
         <h4 className="text-2xl font-semibold text-center">
           I have got what you need .
-          <span className="decoration-[#f7ab0a]/50 underline">Let's Talk</span>
+          <span className="decoration-[#f7ab0a]/50 underline">Lets Talk</span>
         </h4>
         <div>
           <div className="flex items-center space-x-5 justify-center">
