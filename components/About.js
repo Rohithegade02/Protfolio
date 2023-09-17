@@ -47,7 +47,7 @@ function About() {
           abilities and collaborative teamwork. I am equipped to design,
           develop, and optimize web solutions that merge creativity with
           functionality, and I am eager to contribute my expertise to your
-          team's success.
+          team&apos;s success.
         </span>
       </div>
     </motion.div>
