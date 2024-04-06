@@ -5,6 +5,24 @@ import React from 'react';
 
 const data = [
   {
+    id: 12,
+    img: '',
+    cname: 'Circle Health',
+    type: 'Intership',
+    role: 'Full Stack Developer',
+    duration: 'Oct/2023... - Mar/2023... ',
+   
+  },
+  {
+    id: 12,
+    img: '',
+    cname: 'Techtonic Enterprises Pvt. Ltd',
+    type: 'Intership',
+    role: 'Frontend Developer',
+    duration: 'Aug/2023... - Oct/2023... ',
+   
+  },
+  {
     id: 1,
     img: '',
     cname: 'Techhelps.co.in',
@@ -40,6 +58,7 @@ const data = [
     p4: 'Solved complex functionalities using the latest web technologies.',
     p3: '  Developed a responsive and full-scale web application for digitizing manual registers',
   },
+  
 ];
 function ExperienceCard() {
   return (
@@ -68,11 +87,11 @@ function ExperienceCard() {
               <p className='font-bold text-l mt-1'>{item.type}</p>
             </div>
             <p className='uppercase  text-gray-300'>{item.duration}</p>
-            <ul className='list-disc lg:mt-10 md:mt-10 space-y-4 ml-5 text-xs'>
-              <li>{item.p1}</li>
-              <li>{item.p2}</li>
-              <li>{item.p3}</li>
-            </ul>
+            <div className='list-disc lg:mt-10 md:mt-10 space-y-4 ml-5 text-xs'>
+              <p>{item.p1}</p>
+              <p>{item.p2}</p>
+              <p>{item.p3}</p>
+            </div>
           </div>
         </article>
       ))}
