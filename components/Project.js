@@ -36,6 +36,22 @@ function Project() {
       ],
     },
     {
+      img: "https://cdn.sanity.io/images/ozwoeorl/production/bf372fb16410911736a32a65088a8c3699df9827-7680x4320.png",
+      name: "Airbnb Clone",
+      description:
+        " This is a NextJs and Tailwind based Airbnb clone. This clone features extreme responsiveness to all devices.In this user can select from which date in which he wants to travel till the end date and select the city. Implemented mapbox where he/she can view the exactly location of hotels in the map.",
+      git: "https://github.com/Rohithegade02/Airbnb-Clone",
+      demo: "https://airbnb-psi-three.vercel.app/",
+      techno: [
+        {
+          img1: "https://cdn.sanity.io/images/ozwoeorl/production/df24f3334e1f5785d585babeabe06b5876e7a7d8-500x500.png?w=2000&fit=max&auto=format",
+          img2: "https://cdn.sanity.io/images/ozwoeorl/production/af8a94a4e1400ea5eb033c1bd913570c66bad349-1200x600.webp?w=2000&fit=max&auto=format",
+          img3: "https://cdn.sanity.io/images/ozwoeorl/production/e285efaab9a759d07eaa1b6155ac36d72d45f4ab-1200x1200.jpg?w=2000&fit=max&auto=format",
+          img4: "https://cdn.sanity.io/images/ozwoeorl/production/b473d35de88f549250d4dc022ca12e953a455d33-300x300.png?w=2000&fit=max&auto=format",
+        },
+      ],
+    },
+    {
       img: "https://cdn.sanity.io/images/ozwoeorl/production/062ce219b3601a36c5ab13535b0ea1739114cce5-909x510.png?w=300&fit=max&auto=format",
       name: "Linkdeln Clone",
       description:
@@ -51,22 +67,7 @@ function Project() {
         },
       ],
     },
-    {
-      img: "https://cdn.sanity.io/images/ozwoeorl/production/37b2ffd189a58c39a9317e6625a46026c604fe8f-1340x1112.png?w=200&fit=max&auto=format",
-      name: "Airbnb Clone",
-      description:
-        " This is a NextJs and Tailwind based Airbnb clone. This clone features extreme responsiveness to all devices.In this user can select from which date in which he wants to travel till the end date and select the city. Implemented mapbox where he/she can view the exactly location of hotels in the map.",
-      git: "https://github.com/Rohithegade02/Airbnb-Clone",
-      demo: "https://airbnb-psi-three.vercel.app/",
-      techno: [
-        {
-          img1: "https://cdn.sanity.io/images/ozwoeorl/production/df24f3334e1f5785d585babeabe06b5876e7a7d8-500x500.png?w=2000&fit=max&auto=format",
-          img2: "https://cdn.sanity.io/images/ozwoeorl/production/af8a94a4e1400ea5eb033c1bd913570c66bad349-1200x600.webp?w=2000&fit=max&auto=format",
-          img3: "https://cdn.sanity.io/images/ozwoeorl/production/e285efaab9a759d07eaa1b6155ac36d72d45f4ab-1200x1200.jpg?w=2000&fit=max&auto=format",
-          img4: "https://cdn.sanity.io/images/ozwoeorl/production/b473d35de88f549250d4dc022ca12e953a455d33-300x300.png?w=2000&fit=max&auto=format",
-        },
-      ],
-    },
+    
     {
       img: "https://cdn.sanity.io/images/ozwoeorl/production/a86cf4623e7672298bb0bf7b77ccb944ae30b22e-1000x420.webp?w=360&fit=max&auto=format",
       name: "Hulu Clone",
@@ -111,7 +112,7 @@ function Project() {
               viewport={{ once: true }}
               src={project.img}
               alt=""
-              className="h-[350px] w-full rounded-md object-center object-contain"
+              className="h-[350px] w-96 rounded-md object-center object-contain"
             />
             <div className="space-y-2 px-0 md:px-10 max-w-4xl">
               <h4 className="text-2xl font-semibold text-center ">
