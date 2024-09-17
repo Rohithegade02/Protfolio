@@ -4,34 +4,34 @@ import { motion } from "framer-motion";
 function Project() {
   const projects = [
     {
-      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7OffG4DlY0wvhkc7gp2AHG6M4KHOcUEBEFP7huakb5GMqWIkreI0s7MKW9CvThPK5fwI&usqp=CAU",
+      img: "https://cdn.sanity.io/images/ozwoeorl/production/c33fa53e671b390022047be680e5a72c09e498e5-10000x7500.png",
       name: "Rider App (Uber Clone)",
       description:
-        " 🛒🛒This is a Amazon Shopping Site's clone version created using ReactJs. Here we can able to add your items to the cart and also able to purchase the products using your card via stripe payment  method",
+        "Built with React Native for handling the user interface, Google Maps for rendering maps with directions, stripe for handling payments, serverless Postgres for managing databases, and styled with TailwindCSS, Uber Clone is a perfect mobile app.",
       git: "https://github.com/Rohithegade02/uber-clone",
-      demo: "https://clone-17862.web.app/",
+      demo: "",
       techno: [
         {
           img1: "https://cdn.sanity.io/images/ozwoeorl/production/0b5634b00998cd9c85c300ebd66962b4555d6b84-1200x630.png?w=2000&fit=max&auto=format",
-          img2: "https://cdn.sanity.io/images/ozwoeorl/production/af8a94a4e1400ea5eb033c1bd913570c66bad349-1200x600.webp?w=2000&fit=max&auto=format",
-          img3: "https://cdn.sanity.io/images/ozwoeorl/production/8473fd46d7dffba4283ef5494b7a5677d196b961-260x260.jpg?w=2000&fit=max&auto=format",
-          img4: "https://cdn.sanity.io/images/ozwoeorl/production/0cfc0be6b6615afb3b16b65c7c99b546c41351a9-1280x1280.webp?w=2000&fit=max&auto=format",
+          img2: "https://cdn.sanity.io/images/ozwoeorl/production/0d42a1ba8528383571bd33361f6edb7118bd6c4a-144x144.png",
+          img3: "https://cdn.sanity.io/images/ozwoeorl/production/7ef9964e6d7067f1beed8cb12dccd96df1e54b0d-192x198.jpg",
+          img4: "",
         },
       ],
     },
     {
-      img: "https://cdn.sanity.io/images/ozwoeorl/production/9c5da2b380f90716d54b32f634c42fec503c1561-1000x750.webp?w=200&fit=max&auto=format",
-      name: "Discord Clone",
+      img: "https://cdn.sanity.io/images/ozwoeorl/production/c5e65c15bcf5172b39a69da5d3f8307b6226fb61-10000x7500.png",
+      name: "Learn Management App ",
       description:
-        " Discord (with unique roles in each server,image auto render video links in messages, discord loading logo between page renderings) with React, React Router, Tailwind CSS and firebase as backend",
-      git: "https://github.com/Rohithegade02/Discord-Clone",
-      demo: "https://discordclone-three.vercel.app/",
+        "Developed the Learning Management app in a native app based on the Figma design . Implemented features like a wishlist and personalized content recommendations based on user behavior, utilizing Zustand for state management.",
+      git: "https://github.com/Rohithegade02/lms-native-app",
+      demo: "",
       techno: [
         {
           img1: "https://cdn.sanity.io/images/ozwoeorl/production/0b5634b00998cd9c85c300ebd66962b4555d6b84-1200x630.png?w=2000&fit=max&auto=format",
-          img2: "https://cdn.sanity.io/images/ozwoeorl/production/af8a94a4e1400ea5eb033c1bd913570c66bad349-1200x600.webp?w=2000&fit=max&auto=format",
-          img3: "https://cdn.sanity.io/images/ozwoeorl/production/8473fd46d7dffba4283ef5494b7a5677d196b961-260x260.jpg?w=2000&fit=max&auto=format",
-          img4: "https://cdn.sanity.io/images/ozwoeorl/production/e285efaab9a759d07eaa1b6155ac36d72d45f4ab-1200x1200.jpg?w=2000&fit=max&auto=format",
+          img2: "",
+          img3: "",
+          img4: "",
         },
       ],
     },
@@ -95,11 +95,11 @@ function Project() {
       <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl ">
         Projects
       </h3>
-      <div className=" scrollbar-track-gray-400/20 scrollbar scrollbar-thin scrollbar-thumb-[#f7ab0a]/80 relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20">
+      <div className=" scrollbar-track-gray-400/20 scrollbar  scrollbar-thumb-[#f7ab0a]/80 relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20">
         {projects.map((project, i) => (
           <div
             key={i}
-            className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen"
+            className="w-screen mt-32 flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen"
           >
             <motion.img
               initial={{
@@ -111,9 +111,9 @@ function Project() {
               viewport={{ once: true }}
               src={project.img}
               alt=""
-              className="h-25 w-30 object-center object-fill"
+              className="h-[350px] w-full rounded-md object-center object-contain"
             />
-            <div className="space-y-10 px-0 md:px-10 max-w-4xl">
+            <div className="space-y-2 px-0 md:px-10 max-w-4xl">
               <h4 className="text-2xl font-semibold text-center ">
                 <span className="underline decoration-[#f7ab0a]/50">
                   {" "}
@@ -131,18 +131,27 @@ function Project() {
                       className=" h-10 w-10 rounded-full object-cover "
                       src={technologies.img1}
                     />
-                    <img
+                   {
+                      technologies.img2 &&
+                      <img
                       className=" h-10 w-10 rounded-full object-cover "
                       src={technologies.img2}
                     />
-                    <img
+                   }
+                    {
+                      technologies.img3 && 
+                      <img
                       className=" h-10 w-10 rounded-full object-cover "
                       src={technologies.img3}
                     />
-                    <img
+                    }
+                    {
+                      technologies.img4 &&
+                      <img
                       className=" h-10 w-10 rounded-full object-cover "
                       src={technologies.img4}
                     />
+                    }
                   </div>
                 ))}
               </div>
