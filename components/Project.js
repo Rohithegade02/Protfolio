@@ -5,10 +5,10 @@ function Project() {
   const projects = [
     {
       img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7OffG4DlY0wvhkc7gp2AHG6M4KHOcUEBEFP7huakb5GMqWIkreI0s7MKW9CvThPK5fwI&usqp=CAU",
-      name: "Amazon Clone",
+      name: "Rider App (Uber Clone)",
       description:
         " 🛒🛒This is a Amazon Shopping Site's clone version created using ReactJs. Here we can able to add your items to the cart and also able to purchase the products using your card via stripe payment  method",
-      git: "https://github.com/Rohithegade02/amazon-clone",
+      git: "https://github.com/Rohithegade02/uber-clone",
       demo: "https://clone-17862.web.app/",
       techno: [
         {
