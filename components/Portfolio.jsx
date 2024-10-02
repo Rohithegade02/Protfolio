@@ -28,7 +28,7 @@ function Portfolio() {
   const ProtofolioData = useMemo(() => {
     return [
       {
-        img: 'https://cdn.sanity.io/images/ozwoeorl/production/c33fa53e671b390022047be680e5a72c09e498e5-10000x7500.png',
+        img: '/uber-clone.png',
         name: 'Rider App (Uber Clone)',
         description:
           'Built with React Native for handling the user interface, Google Maps for rendering maps with directions, stripe for handling payments, serverless Postgres for managing databases, and styled with TailwindCSS, Uber Clone is a perfect mobile app.',
@@ -46,7 +46,7 @@ function Portfolio() {
         type: 'Mobile Application',
       },
       {
-        img: 'https://cdn.sanity.io/images/ozwoeorl/production/bf372fb16410911736a32a65088a8c3699df9827-7680x4320.png',
+        img: '/Airbnb-Clone.png',
         name: 'Airbnb Clone',
         description:
           'This is a NextJs and Tailwind based Airbnb clone. This clone features extreme responsiveness to all devices. In this user can select from which date in which he wants to travel till the end date and select the city. Implemented mapbox where he/she can view the exact location of hotels on the map.',
@@ -54,15 +54,6 @@ function Portfolio() {
         demo: 'https://airbnb-psi-three.vercel.app/',
         type: 'Web Application',
         bg: '#214B48',
-      },
-      {
-        img: '/Linkedln-Clone.png',
-        name: 'LinkedIn Clone',
-        description:
-          'Implemented a web application using React and Redux. The index page contains login credentials. Sign in with Google is enabled through Firebase as a backend. Used styled-components for styling the User Interface.',
-        git: 'https://github.com/Rohithegade02/Linkdein-Clone',
-        demo: 'https://linkdein-clone-seven.vercel.app/',
-        type: 'Web Application',
       },
       {
         img: '/Hulu-Clone.png',
@@ -73,6 +64,15 @@ function Portfolio() {
         demo: 'https://huluapp-ten.vercel.app/',
         type: 'Web Application',
         bg: '#06202A',
+      },
+      {
+        img: '/Linkedln-Clone.png',
+        name: 'LinkedIn Clone',
+        description:
+          'Implemented a web application using React and Redux. The index page contains login credentials. Sign in with Google is enabled through Firebase as a backend. Used styled-components for styling the User Interface.',
+        git: 'https://github.com/Rohithegade02/Linkdein-Clone',
+        demo: 'https://linkdein-clone-seven.vercel.app/',
+        type: 'Web Application',
       },
     ]
   }, [])
@@ -116,18 +116,18 @@ const PortfolioCard = ({ item, variants }) => {
   return (
     <motion.div
       variants={variants}
-      className='group relative flex flex-col mt-5 mb-4 cursor-pointer flex-wrap justify-between gap-4'
+      className='group relative flex flex-col mt-14 mb-4 cursor-pointer flex-wrap justify-between gap-4'
     >
       <div
-        className={`h-64 w-96 flex justify-center items-center rounded-lg bg-slate-100 relative`}
+        className={`h-56 w-[390px] flex justify-center items-center rounded-lg bg-slate-100 relative`}
       >
         <Image
           src={item.img}
           alt=''
-          width={item.type === 'Web Application' ? 350 : 300}
-          height={item.type === 'Web Application' ? 350 : 300}
+          width={item.type === 'Web Application' ? 350 : 270}
+          height={item.type === 'Web Application' ? 390 : 320}
           objectFit='contain'
-          className='hover:scale-110 duration-300'
+          className=' hover:scale-110 duration-300'
           style={{
             borderRadius: 20,
           }}
