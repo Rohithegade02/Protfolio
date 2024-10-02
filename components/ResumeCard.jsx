@@ -95,14 +95,14 @@ function ResumeCard({ recordType }) {
             {/* Content */}
             <div className='mb-5 -mt-1.5 w-full'>
               <div className='flex justify-between items-center'>
-                <h2 className=' md:text-base text-sm lg:text-base font-semibold text-white'>
+                <h2 className=' md:text-base text-[10px] lg:text-base font-semibold text-white'>
                   {item?.role ?? ''}
                 </h2>
-                <h2 className='lg:text-sm md:text-sm text-[10px]  text-[#F5D26C]'>
+                <h2 className='lg:text-sm md:text-sm text-[8px]  text-[#F5D26C]'>
                   {item?.date}
                 </h2>
               </div>
-              <p className='md:text-sm lg:text-sm text-[10px]  text-[#F5D26C]'>
+              <p className='md:text-sm lg:text-sm text-[8px]  text-[#F5D26C]'>
                 {item?.company}
               </p>
               <p className='text-gray-200 text-[12px] mt-2'>
