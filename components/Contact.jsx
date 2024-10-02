@@ -57,7 +57,7 @@ function Contact() {
           ></textarea>
           <button
             type='submit'
-            className='bg-[#f7ab0a] py-5 px-10 rounded-md text-black font-bold text-lg hover:bg-slate-50 '
+            className='bg-[#F5D26C] py-5 px-10 rounded-md text-black font-bold text-lg hover:bg-slate-50 '
           >
             Submit
           </button>
