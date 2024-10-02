@@ -91,7 +91,7 @@ function Portfolio() {
             className='mt-5'
           >
             <h1
-              className={`text-base font-medium cursor-pointer ${
+              className={`md:text-base text-sm lg:text-base font-medium cursor-pointer ${
                 filter === category
                   ? 'text-[#F5D26C]'
                   : 'text-[#BCBCBC] hover:text-[#6A6A6B] transition-colors duration-300 ease-in-out'

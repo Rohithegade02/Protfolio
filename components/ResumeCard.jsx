@@ -102,7 +102,7 @@ function ResumeCard({ recordType }) {
                   {item?.date}
                 </h2>
               </div>
-              <p className='md:text-sm lg:text-sm text-[8px]  text-[#F5D26C]'>
+              <p className='md:text-sm lg:text-sm text-[10px]  text-[#F5D26C]'>
                 {item?.company}
               </p>
               <p className='text-gray-200 text-[12px] mt-2'>

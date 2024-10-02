@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 
 function Skills() {
   return (
-    <div className='bg-[#232325] w-[90%] mt-5 mx-auto max-h-full lg:px-5 shadow-md flex flex-col gap-2 rounded-lg'>
+    <div className='bg-[#232325] w-[90%] mt-5 mx-auto max-h-full pb-4 lg:px-5 shadow-md flex flex-col gap-2 rounded-lg'>
       <SkillsCard skillsPercentage={'90'} skillsType={'React'} />
       <SkillsCard skillsPercentage={'85'} skillsType={'Javascript'} />
       <SkillsCard skillsPercentage={'85'} skillsType={'Tailwind CSS'} />
