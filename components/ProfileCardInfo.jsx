@@ -51,7 +51,7 @@ function ProfileCardInfo() {
               </h1>
             </div>
             <div className='bg-[#363637] p-2 flex justify-center rounded-lg'>
-              <h1 className='text-[#F5D26C] md:text-[12px] text-sm lg:text-[12px]'>
+              <h1 className='text-[#F5D26C] md:text-[12px] text-[10px] lg:text-[12px]'>
                 Full Stack Developer
               </h1>
             </div>
