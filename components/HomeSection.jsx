@@ -43,7 +43,7 @@ function HomeSection() {
   }
 
   return (
-    <div className=' w-[60%] bg-[#1E1E1F] flex flex-col  border-2 border-[#333333] rounded-2xl'>
+    <div className='md:w-full w-[60%] bg-[#1E1E1F] flex flex-col md:pb-10 border-2 border-[#333333] rounded-2xl'>
       <div className='flex justify-between'>
         <Header key={activeSection} title={handleTitleChange(activeSection)} />
         <Menu

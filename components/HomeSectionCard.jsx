@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 function HomeSectionCard(props) {
   return (
-    <div className='flex gap-5 bg-[#222225] shadow-md p-6 items-center w-1/2 h-32 rounded-lg'>
+    <div className='flex gap-5 bg-[#222225] shadow-md p-6 items-center w-[45%] h-32 rounded-lg'>
       <div>
         <Image src={props.logo} alt='' width={70} height={70} />
       </div>

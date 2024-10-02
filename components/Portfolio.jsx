@@ -119,15 +119,16 @@ const PortfolioCard = ({ item, variants }) => {
       className='group relative flex flex-col mt-14 mb-4 cursor-pointer flex-wrap justify-between gap-4'
     >
       <div
-        className={`h-56 w-[390px] flex justify-center items-center rounded-lg bg-slate-100 relative`}
+        className={`lg:h-72 lg:w-[460px] md:h-[300px] md:w-[360px] flex justify-center items-center rounded-lg bg-slate-100 relative`}
       >
         <Image
           src={item.img}
           alt=''
-          width={item.type === 'Web Application' ? 350 : 270}
-          height={item.type === 'Web Application' ? 390 : 320}
+          // width={item.type === 'Web Application' ? 350 : 270}
+          // height={item.type === 'Web Application' ? 390 : 320}
+          layout='fill'
           objectFit='contain'
-          className=' hover:scale-110 duration-300'
+          className=' hover:scale-110 duration-300 lg:w-64 lg:h-64'
           style={{
             borderRadius: 20,
           }}
