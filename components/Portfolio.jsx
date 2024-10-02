@@ -12,8 +12,8 @@ function Portfolio() {
       opacity: 1,
       scale: 1,
       transition: {
-        delayChildren: 0.3,
-        staggerChildren: 0.2,
+        delayChildren: 0.5,
+        staggerChildren: 0.5,
       },
     },
   }
@@ -82,10 +82,14 @@ function Portfolio() {
     filter === 'All' ? true : item.type === filter,
   )
   return (
-    <div className='p-10 flex flex-col gap-5'>
+    <div className='md:px-10 px-4 lg:px-10 flex flex-col gap-5'>
       <div className='flex gap-5 items-center'>
         {['All', 'Mobile Application', 'Web Application'].map(category => (
-          <div key={category} onClick={() => setFilter(category)}>
+          <div
+            key={category}
+            onClick={() => setFilter(category)}
+            className='mt-5'
+          >
             <h1
               className={`text-base font-medium cursor-pointer ${
                 filter === category
@@ -102,7 +106,7 @@ function Portfolio() {
         variants={container}
         initial='hidden'
         animate='visible'
-        className='flex flex-row justify-between flex-wrap'
+        className='lg:flex md:flex md:flex-row flex flex-col lg:flex-row justify-between md:flex-wrap lg:flex-wrap'
       >
         {filteredData.map((item, index) => (
           <PortfolioCard item={item} key={index} variants={animateItem} />
@@ -119,7 +123,7 @@ const PortfolioCard = ({ item, variants }) => {
       className='group relative flex flex-col mt-14 mb-4 cursor-pointer flex-wrap justify-between gap-4'
     >
       <div
-        className={`lg:h-72 lg:w-[460px] md:h-[300px] md:w-[360px] flex justify-center items-center rounded-lg bg-slate-100 relative`}
+        className={`lg:h-72 lg:w-[350px] h-60 w-full  md:h-[280px] md:w-[280px] flex justify-center items-center rounded-lg bg-slate-100 relative`}
       >
         <Image
           src={item.img}
@@ -128,7 +132,7 @@ const PortfolioCard = ({ item, variants }) => {
           // height={item.type === 'Web Application' ? 390 : 320}
           layout='fill'
           objectFit='contain'
-          className=' hover:scale-110 duration-300 lg:w-64 lg:h-64'
+          className=' hover:scale-110 duration-300 h-60 w-full lg:w-52 lg:h-52'
           style={{
             borderRadius: 20,
           }}

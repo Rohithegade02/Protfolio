@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import React, { useState } from 'react'
 import {
+  ArrowDownIcon,
   CalendarIcon,
   LocationMarkerIcon,
   MailIcon,
@@ -23,16 +24,17 @@ function ProfileCardInfo() {
       }}
       className=' lg:h-screen lg:w-72 md:w-full bg-[#1E1E1F]  flex flex-col lg:justify-center md:relative lg:items-center border-2 border-[#333333] rounded-2xl'
     >
-      <div className='md:absolute md:bg-[#363637] md:rounded-xl md:rounded-tl-none md:rounded-br-none md:p-2 lg:hidden top-0 right-0'>
+      <div className='md:absolute  md:block md:bg-[#363637] md:rounded-xl md:rounded-tl-none md:rounded-br-none p-2 lg:hidden top-0 right-0'>
         <button
-          className='text-[#F5D26C] text-[12px] '
+          className='text-[#F5D26C] text-[12px]  '
           onClick={() => setShowContacts(!showContacts)}
         >
-          Show Contacts
+          {showContacts ? 'Hide Details' : 'Show Details'}
         </button>
       </div>
-      <div className='flex flex-col md:p-16 lg:items-center gap-5'>
-        <div className='md:flex lg:flex lg:flex-col md:gap-5 md:items-center'>
+
+      <div className='flex flex-col p-4 md:p-16 lg:p-0 lg:items-center gap-5'>
+        <div className='flex lg:flex lg:flex-col gap-5 items-center'>
           <div className='bg-[#363637] w-40 h-40 flex items-center rounded-3xl'>
             <Image
               src={'/my-avatar.png'}
@@ -42,14 +44,14 @@ function ProfileCardInfo() {
               className='flex items-center'
             />
           </div>
-          <div className='md:flex md:flex-col md:gap-5'>
+          <div className='flex flex-col gap-5'>
             <div>
-              <h1 className='text-[#fafafa] text-2xl font-semibold'>
+              <h1 className='text-[#fafafa] text-lg md:text-xl lg:text-2xl font-semibold'>
                 Rohit Hegade
               </h1>
             </div>
             <div className='bg-[#363637] p-2 flex justify-center rounded-lg'>
-              <h1 className='text-[#F5D26C] text-[12px]'>
+              <h1 className='text-[#F5D26C] md:text-[12px] text-sm lg:text-[12px]'>
                 Full Stack Developer
               </h1>
             </div>
@@ -62,11 +64,11 @@ function ProfileCardInfo() {
               animate={{ opacity: 1, height: 'auto' }}
               exit={{ opacity: 0, height: 0 }}
               transition={{ duration: 0.5, ease: 'easeInOut' }}
-              className='overflow-hidden md:flex md:flex-col md:gap-5'
+              className='overflow-hidden md:flex md:flex-col md:gap-5 flex flex-col gap-5 '
             >
               <div className='bg-[#363637] w-full h-px ' />
               <div className='flex md:flex-col md:flex-wrap flex-row flex-wrap lg:flex-col gap-8'>
-                <div className=' lg:flex lg:flex-col lg:gap-8 md:flex  md:justify-between'>
+                <div className=' lg:flex lg:flex-col lg:gap-8 md:flex md:flex-row md:justify-between flex flex-col gap-5'>
                   <ProfileCardItem
                     icon={
                       <MailIcon
@@ -90,7 +92,7 @@ function ProfileCardInfo() {
                     typeValue='+91 9481458332'
                   />
                 </div>
-                <div className='lg:flex lg:flex-col lg:gap-8  md:flex md:justify-between'>
+                <div className='lg:flex lg:flex-col lg:gap-8  md:flex md:justify-between flex flex-col gap-5'>
                   <ProfileCardItem
                     icon={
                       <CalendarIcon
@@ -111,7 +113,7 @@ function ProfileCardInfo() {
                       />
                     }
                     type='LOCATION'
-                    typeValue='Hubli,Karnataka'
+                    typeValue='Hubli , Karnataka'
                   />
                 </div>
               </div>

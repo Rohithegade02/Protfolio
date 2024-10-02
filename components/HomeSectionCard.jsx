@@ -4,16 +4,20 @@ import Image from 'next/image'
 
 function HomeSectionCard(props) {
   return (
-    <div className='flex gap-5 bg-[#222225] shadow-md p-6 items-center w-[45%] h-32 rounded-lg'>
+    <div className='flex gap-5 bg-[#222225] shadow-md p-6 items-center lg:w-[47.5%] w-full h-32 rounded-lg'>
       <div>
         <Image src={props.logo} alt='' width={70} height={70} />
       </div>
       <div className='flex flex-col gap-2'>
         <div>
-          <h1 className='text-white font-semibold text-lg'>{props.title}</h1>
+          <h1 className='text-white font-semibold lg:text-lg text-base md:text-lg'>
+            {props.title}
+          </h1>
         </div>
         <div>
-          <h1 className='text-[#BCBCBD] text-sm'>{props.subtitle}</h1>
+          <h1 className='text-[#BCBCBD] text-[10px] md:text-sm lg:text-sm'>
+            {props.subtitle}
+          </h1>
         </div>
       </div>
     </div>

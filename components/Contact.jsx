@@ -20,12 +20,12 @@ function Contact() {
         delay: 0.05,
         ease: [0.25, 0.46, 0.45, 0.94],
       }}
-      className=' relative flex flex-col md:justify-center md:pt-10 lg:gap-5 lg:flex-col text-center md:text-left md:flex-row max-w-7xl items-start lg:my-auto '
+      className=' relative h-[45vh] flex flex-col items-center lg:items-start md:justify-center md:pt-10 lg:gap-5 lg:flex-col text-center md:text-left md:flex-row max-w-7xl  lg:my-auto '
     >
-      <div className='lg:pl-10 md:hidden'>
+      <div className='lg:pl-10 lg:block hidden'>
         <h1 className='font-bold text-white text-2xl'>Contact Form</h1>
       </div>
-      <div className='flex flex-col lg:w-[90%] space-y-5 '>
+      <div className='flex flex-col lg:w-[90%] px-4 w-[90%] md:w-[80%] md:mt-5 mt-5   space-y-5 '>
         <form
           onSubmit={handleSubmit(onSubmit)}
           className='flex flex-col space-y-2 w-full  sm:mx-10'
@@ -34,7 +34,7 @@ function Contact() {
             <input
               {...register('name')}
               placeholder='Name'
-              className='contactInput'
+              className='contactInput + w-full'
               type='text'
             />
             <input
