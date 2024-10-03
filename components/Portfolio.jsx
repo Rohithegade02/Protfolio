@@ -66,6 +66,16 @@ function Portfolio() {
         bg: '#06202A',
       },
       {
+        img: '/Discord-Clone.png',
+        name: 'Discord Clone',
+        description:
+          'Developed frontend web application using ReactJS Framework. Fully responsive web page which contains information of movies based on their genres.',
+        git: 'https://github.com/Rohithegade02/HULUAPP',
+        demo: 'https://discordclone-three.vercel.app/',
+        type: 'Web Application',
+        bg: '#06202A',
+      },
+      {
         img: '/Linkedln-Clone.png',
         name: 'LinkedIn Clone',
         description:
