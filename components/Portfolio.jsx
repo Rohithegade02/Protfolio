@@ -133,7 +133,7 @@ const PortfolioCard = ({ item, variants }) => {
       className='group relative flex flex-col mt-14 mb-4 cursor-pointer flex-wrap justify-between gap-4'
     >
       <div
-        className={`lg:h-72 lg:w-[350px] h-60 w-full  md:h-[280px] md:w-[280px] flex justify-center items-center rounded-lg bg-slate-100 relative`}
+        className={`lg:h-72 lg:w-[340px] h-60 w-full  md:h-[280px] md:w-[280px] flex justify-center items-center rounded-lg bg-slate-100 relative`}
       >
         <Image
           src={item.img}
