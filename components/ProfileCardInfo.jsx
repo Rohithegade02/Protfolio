@@ -22,7 +22,7 @@ function ProfileCardInfo() {
         delay: 0.05,
         ease: [0.25, 0.46, 0.45, 0.94],
       }}
-      className=' lg:h-screen lg:w-72 md:w-full bg-[#1E1E1F]  flex flex-col lg:justify-center relative md:relative lg:items-center border-2 border-[#333333] rounded-2xl'
+      className=' lg:h-[90vh] lg:w-72 md:w-full bg-[#1E1E1F]  flex flex-col lg:justify-center relative md:relative lg:items-center border-2 border-[#333333] rounded-2xl'
     >
       <div className='bg-[#363637] !sm:bg-[#363637] absolute md:absolute md:bg-[#363637] rounded-xl rounded-tl-none rounded-br-none p-2 lg:hidden top-0 right-0'>
         <button

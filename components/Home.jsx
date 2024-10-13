@@ -13,7 +13,7 @@ function Home() {
         ease: [0.25, 0.46, 0.45, 0.94],
       }}
     >
-      <div className='flex flex-col gap-3 py-10  md:px-10 px-4 lg:px-10'>
+      <div className='flex flex-col gap-3 py-6  md:px-10 px-4 lg:px-10'>
         <h1 className='text-[#d1d1d1] text-base'>
           I&apos;m a web developer and React Native developer with more than 1
           year of experience, focused on creating elegant and intuitive
@@ -29,7 +29,7 @@ function Home() {
       </div>
       <div className='md:px-10 px-4 lg:px-10 flex flex-col gap-5'>
         <div>
-          <h1 className='text-white text-2xl mt-10 font-semibold'>
+          <h1 className='text-white text-2xl mt-5 font-semibold'>
             What I&apos;m Doing
           </h1>
         </div>
