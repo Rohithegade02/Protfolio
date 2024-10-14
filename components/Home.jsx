@@ -13,7 +13,7 @@ function Home() {
         ease: [0.25, 0.46, 0.45, 0.94],
       }}
     >
-      <div className='flex flex-col gap-3 py-6  md:px-10 px-4 lg:px-10'>
+      <div className='flex flex-col gap-3  py-6  md:px-10 px-4 lg:px-10'>
         <h1 className='text-[#d1d1d1] text-base'>
           I&apos;m a web developer and React Native developer with more than 1
           year of experience, focused on creating elegant and intuitive
@@ -27,13 +27,13 @@ function Home() {
           the most creative way.
         </h1>
       </div>
-      <div className='md:px-10 px-4 lg:px-10 flex flex-col gap-5'>
+      <div className='md:px-10 px-4  lg:mt-[40px] lg:px-10 flex flex-col gap-5'>
         <div>
           <h1 className='text-white text-2xl lg:mt-0 mt-5 font-semibold'>
             What I&apos;m Doing
           </h1>
         </div>
-        <div className='flex flex-col gap-5 lg:flex lg:flex-row  lg:gap-5'>
+        <div className='flex flex-col gap-5 lg:flex lg:flex-row  lg:gap-10'>
           <HomeSectionCard
             logo={'/icon-dev.svg'}
             title='Web development'
@@ -45,7 +45,7 @@ function Home() {
             subtitle='Professional development of applications for iOS and Android.'
           />
         </div>
-        <div className='lg:pb-8'>
+        <div className='lg:pb-8 lg:mt-4'>
           <HomeSectionCard
             logo={'/icon-design.svg'}
             title='Web design'

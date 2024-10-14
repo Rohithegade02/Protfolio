@@ -20,7 +20,7 @@ function Contact() {
         delay: 0.05,
         ease: [0.25, 0.46, 0.45, 0.94],
       }}
-      className=' relative h-[45vh] lg:h-[64.5vh] flex flex-col items-center lg:items-start lg:mb-20 md:justify-center md:pt-10 lg:gap-5 lg:flex-col text-center md:text-left md:flex-row max-w-7xl  lg:my-auto '
+      className=' relative h-[45vh] lg:h-[67vh] flex flex-col items-center lg:items-start lg:mb-20 md:justify-center md:pt-10 lg:gap-5 lg:flex-col text-center md:text-left md:flex-row max-w-7xl  lg:my-auto '
     >
       <div className='lg:pl-10 lg:block lg:mt-10 hidden'>
         <h1 className='font-bold text-white text-2xl'>Contact Form</h1>
