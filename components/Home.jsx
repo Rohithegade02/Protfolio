@@ -29,7 +29,7 @@ function Home() {
       </div>
       <div className='md:px-10 px-4 lg:px-10 flex flex-col gap-5'>
         <div>
-          <h1 className='text-white text-2xl mt-5 font-semibold'>
+          <h1 className='text-white text-2xl lg:mt-0 mt-5 font-semibold'>
             What I&apos;m Doing
           </h1>
         </div>
@@ -45,7 +45,7 @@ function Home() {
             subtitle='Professional development of applications for iOS and Android.'
           />
         </div>
-        <div className=''>
+        <div className='lg:pb-8'>
           <HomeSectionCard
             logo={'/icon-design.svg'}
             title='Web design'

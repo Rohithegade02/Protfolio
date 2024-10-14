@@ -22,7 +22,7 @@ function ProfileCardInfo() {
         delay: 0.05,
         ease: [0.25, 0.46, 0.45, 0.94],
       }}
-      className=' lg:h-[90vh] lg:w-72 md:w-full bg-[#1E1E1F]  flex flex-col lg:justify-center relative md:relative lg:items-center border-2 border-[#333333] rounded-2xl'
+      className=' lg:h-[90vh] lg:w-72 md:w-full  bg-[#1E1E1F] lg:fixed lg:top-10 lg:left-28  flex flex-col lg:justify-center relative md:relative lg:items-center border-2 border-[#333333] rounded-2xl'
     >
       <div className='bg-[#363637] !sm:bg-[#363637] absolute md:absolute md:bg-[#363637] rounded-xl rounded-tl-none rounded-br-none p-2 lg:hidden top-0 right-0'>
         <button
@@ -33,7 +33,7 @@ function ProfileCardInfo() {
         </button>
       </div>
 
-      <div className='flex flex-col p-4 md:p-16 lg:p-0 lg:items-center gap-5'>
+      <div className='flex flex-col p-4 md:p-16 lg:pt-32 lg:items-center gap-5'>
         <div className='flex lg:flex lg:flex-col gap-5 items-center'>
           <div className='bg-[#363637] w-40 h-40 flex items-center rounded-3xl'>
             <Image
@@ -44,7 +44,7 @@ function ProfileCardInfo() {
               className='flex items-center'
             />
           </div>
-          <div className='flex flex-col gap-5'>
+          <div className='flex flex-col gap-5 lg:gap-3'>
             <div>
               <h1 className='text-[#fafafa] text-lg md:text-xl lg:text-2xl font-semibold'>
                 Rohit Hegade
@@ -64,11 +64,11 @@ function ProfileCardInfo() {
               animate={{ opacity: 1, height: 'auto' }}
               exit={{ opacity: 0, height: 0 }}
               transition={{ duration: 0.5, ease: 'easeInOut' }}
-              className='overflow-hidden md:flex md:flex-col md:gap-5 flex flex-col gap-5 '
+              className='overflow-hidden md:flex md:flex-col md:gap-5 flex flex-col gap-5 lg:gap-2.5 '
             >
               <div className='bg-[#363637] w-full h-px ' />
-              <div className='flex md:flex-col md:flex-wrap flex-row flex-wrap lg:flex-col gap-8'>
-                <div className=' lg:flex lg:flex-col lg:gap-8 md:flex md:flex-row md:justify-between flex flex-col gap-5'>
+              <div className='flex md:flex-col md:flex-wrap flex-row flex-wrap lg:flex-col gap-8 lg:gap-5'>
+                <div className=' lg:flex lg:flex-col lg:gap-4 md:flex md:flex-row md:justify-between flex flex-col gap-5'>
                   <ProfileCardItem
                     icon={
                       <MailIcon
@@ -119,7 +119,7 @@ function ProfileCardInfo() {
               </div>
               <div className='bg-[#363637] w-full h-px lg:hidden' />
 
-              <div>
+              <div className='lg:mb-10'>
                 <SocialIcon
                   url='https://www.linkedin.com/in/rohit-hegade-40a657202/'
                   fgColor='gray'

@@ -11,7 +11,7 @@ function Resume() {
         delay: 0.05,
         ease: [0.25, 0.46, 0.45, 0.94],
       }}
-      className='md:p-10 p-4 lg:p-10 flex flex-col gap-10'
+      className='md:p-10 p-4 lg:p-5 flex flex-col gap-10 lg:gap-4'
     >
       <ResumeCard recordType='Experience' />
       <ResumeCard recordType='Education' />

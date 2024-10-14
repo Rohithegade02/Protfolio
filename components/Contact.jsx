@@ -20,9 +20,9 @@ function Contact() {
         delay: 0.05,
         ease: [0.25, 0.46, 0.45, 0.94],
       }}
-      className=' relative h-[45vh] flex flex-col items-center lg:items-start md:justify-center md:pt-10 lg:gap-5 lg:flex-col text-center md:text-left md:flex-row max-w-7xl  lg:my-auto '
+      className=' relative h-[45vh] lg:h-[64.5vh] flex flex-col items-center lg:items-start lg:mb-20 md:justify-center md:pt-10 lg:gap-5 lg:flex-col text-center md:text-left md:flex-row max-w-7xl  lg:my-auto '
     >
-      <div className='lg:pl-10 lg:block hidden'>
+      <div className='lg:pl-10 lg:block lg:mt-10 hidden'>
         <h1 className='font-bold text-white text-2xl'>Contact Form</h1>
       </div>
       <div className='flex flex-col lg:w-[90%] px-4 w-[90%] md:w-[80%] md:mt-5 mt-5   space-y-5 '>
@@ -57,7 +57,7 @@ function Contact() {
           ></textarea>
           <button
             type='submit'
-            className='bg-[#F5D26C] py-5 px-10 rounded-md text-black font-bold text-lg hover:bg-slate-50 '
+            className='bg-[#F5D26C] py-5 px-10  rounded-md text-black font-bold text-lg hover:bg-slate-50 '
           >
             Submit
           </button>
